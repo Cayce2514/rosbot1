@@ -5,6 +5,6 @@ robot = Robot(left=(7,8), right=(9,10))
 
 for i in range(4):
   robot.forward()
-  time.sleep(10)
+  sleep(10)
   robot.right()
-  time.sleep(1)
+  sleep(1)
